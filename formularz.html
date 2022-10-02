@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Przysmaki dla kotków</title>
+
+    <meta name="description" content="Koty to zwierzaki, które wszyscy lubimy. 
+    Koteczki są urocze i uwielbiają jeść przysmaki z naszej strony!">
+
+    <meta name="author" content="Arkadiusz Włodarczyk">
+</head>
+
+<body style="background-color: 	#cfd9df;">
+<!--
+        Stwórz formularz kontaktowy na stronie.
+        Zapytaj się o:
+        1) e-mail
+        2) imię
+        3) temat
+        4) treść maila
+
+
+        Poszukaj w Internecie informacji na temat: input type="email" 
+                                                   oraz "textarea".
+        
+    -->
+    
+    <form action="send_mail.php" method="post">
+        <fieldset>
+            <legend>Skontaktuj się z nami</legend>
+
+            E-mail: <input type="email" name="email" id="email" placeholder="@" required><br>
+            Imię: <input type="text" name="imie" required><br><br>
+            Temat: <input type="text" name="temat" required><br><br>
+
+            Treść maila:<br>
+                <textarea name="email_content" id="email_content" cols="30" rows="10" placeholder="Jak możemy Ci pomóc?" required></textarea>
+
+            <br><br>
+            <input type="submit" value="Wyślij">
+        </fieldset>
+    </form>
+
+
+    
+</body>
+
+</html>
